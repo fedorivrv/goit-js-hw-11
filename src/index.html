@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <form id="search-form">
+    <form id="search-form" class="form">
       <input type="text" name="searchQuery" placeholder="Search images..." />
       <button type="submit">Search</button>
     </form>
-    <div class="loader"></div>
+    <div class="loader-container"></div>
     <ul class="gallery"></ul>
-    <p id="loading-message" class="loading-message">
+    <span id="loading-message" class="loader">
       Loading images, please wait...
-    </p>
-    <script type="module" src="/main.js"></script>
+    </span>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
